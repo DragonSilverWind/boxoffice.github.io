@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <!-- <meta chaset="UTF-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxoffice Analysis</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rethink+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <div class="title">Box Office Analysis</div>          
+    </section>
+    <section class="container_data">
+        <div class="menu">
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">ABOUT THE PROJECT</a></li>
+                        <li><a href="data.html">DATA</a></li>
+                        <li><a href="code.html">ABOUT THE CODE</a></li>
+                        <li><a href="results.html">RESULTS AND CONCLUSIONS</a></li>
+                        <li><a href="about_us.html">ABOUT THE GROUP</a></li>                    
+                    </ul>
+                </div>            
+            </nav>
+        </div>
+
+        <div class="text-box">About the code</div>
+
+        <div class="containerdos_data">
+
+            <div class="paragraph_code">
+                <h3>What exactly does our code do?</h3>
+                <p>In summary, our program gathers information about categories that we are interested in from the dataset. 
+                    It counts how many times every value appears and sorts from the higher to the lower one. Thanks to it we
+                receive clear information about which director, month, year and movie genre provides the highest amount of best selling movies.</p>
+            </div>
+            
+        </div>
+
+        <div class="containerdos_data">
+            
+            <div class="paragraphdos_code_and_photo">
+
+                <div class="paragraphdos_code">
+                    <h3>How does it work?</h3>
+                    <p> In our code, we use <i>DataFrame</i>s which is a dwo-dimensional labeled data stucture and which can process structured 
+                        and semi-structured data. The core of our solution contains six files. Everything starts with <i>main.py</i>, which loads 
+                        data about every movie. Then <i>schema.py</i> sorts all our data from our dataset. The last four files 
+                        (<i>bestMonth.py</i>, <i>bestYear.py</i>, <i>director.py</i> and <i>genre.py</i>) work in the same way. They get information 
+                        about a director, a genre or a release date from every movie. Then they count how many times every information appears. 
+                        Finally, files sort the category from the best to the worst by amount.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <h1>Check other files in our repository</h1>
+                </div>
+
+                <!-- <div class="photos_code">
+                    <div class="code_photo">
+                        <img src="code.png">
+                    </div>
+                    <p>Code we used to check which movie genre has the best selling movies</p>
+                </div> -->
+
+                <a href="https://github.com/girale06/box-office-analysis"><img class="link_photo emphasize-image" src="githublong.jpg"></a>  
+
+        </div>
+            
+            <div class="code_photo">
+                <img src="code.png">
+                <h1>Code we used to check which movie genre has the best selling movies</h1>
+            </div>
+
+        </div>
+        
+    </section>
+</body>
+</html>

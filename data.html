@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <!-- <meta chaset="UTF-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxoffice Analysis</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rethink+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <div class="title">Box Office Analysis</div>          
+    </section>
+    <section class="container_data">
+        <div class="menu">
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">ABOUT THE PROJECT</a></li>
+                        <li class="active"><a href="data.html">DATA</a></li>
+                        <li><a href="code.html">ABOUT THE CODE</a></li>
+                        <li><a href="results.html">RESULTS AND CONCLUSIONS</a></li>
+                        <li><a href="about_us.html">ABOUT THE GROUP</a></li>
+                    </ul>
+                </div>            
+            </nav>
+        </div>
+
+        <div class="text-box">Data</div>
+
+        <div class="containerdos_data">
+<!-- 
+            <div class="text-box-data">
+                <h2>Data</h2> -->
+            
+
+                <!-- <div class="data_photo">
+                    <img src="guardians.png">
+                </div> -->
+
+            <div class="paragraph_data">
+                <p>Our data comes from the
+                <a href="https://thetvdb.com">TheTVDB</a> website. This is the most accurate collection of data 
+                    for TV and film. Their information is gathered by the contributors and fans, who are rewarded if 
+                    the data is correct. There is metadata available for more than 147,000 TV Series and over 337,000 movies, 
+                    therefore TheTVDB has thorough and precise databases. 
+                    <br><br>
+                    In our project, we will be focusing on movies. 
+                    The database contains numerous useful facts such as the title, cast and crew, characters, genres, date 
+                    of release in particular countries, production budget, global box office and awards. However,
+                    we must carry out data cleansing work also, because the database contains a bunch of useless data for us 
+                    for example links to artworks, trailers and titles in different languages. 
+                    <br><br>
+                    We acquired the data using their API. 
+                    After receiving an API key and making a 10€ contribution, now we can use it freely. Since our project will 
+                    mainly be completed in Python, TheTVDB's python library (<i>tvdb_v4_official</i>) comes in handy. 
+                    The metadata provider recommends making a local copy of the database, which we did in a JSON format. 
+                    Everything we need to use we can find in their GitHub repository: <a href="https://github.com/thetvdb/v4-api">https://github.com/thetvdb/v4-api</a>.</p>
+            </div>
+
+            
+            <div class="photos">
+                <a href="https://thetvdb.com/"><img class="tvdb_photo emphasize-image" src="tvdb.png"></a>
+                <h1>TVDB website</h1>
+                <a href="https://github.com/thetvdb/v4-api"><img class="github_photo emphasize-image" src="githublong.jpg"></a>
+                <h1>TVDB repository</h1>
+            </div>
+<!-- 
+            <!-- </div> -->
+        </div>
+    </section>
+</body>
+</html>
